@@ -16,6 +16,9 @@ public class Studienberatung {
         // TODO code application logic here
         Scanner scanner = new Scanner(System.in);
         System.out.println("Hast du Abitur?");
-        scanner.nextLine();
+        String eingabe1    = scanner.nextLine();
+        System.out.println(eingabe1);
+        
+        
     }
 }
