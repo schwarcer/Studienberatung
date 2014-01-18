@@ -18,8 +18,17 @@ public class Studienberatung {
         System.out.println("Hast du Abitur?");
         String eingabe1    = scanner.nextLine();
         System.out.println(eingabe1);
+        
         System.out.println("Bist du wissbegierig?");
         eingabe1    = scanner.nextLine();
+        
+        System.out.println("Hast du Fachabitur?");
+        eingabe1    = scanner.nextLine();
+        
+        System.out.println("Hast du eine Berufsausbildung?");
+        eingabe1    = scanner.nextLine();
+        
+        
         
     }
 }
